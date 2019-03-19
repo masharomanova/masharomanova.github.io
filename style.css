@@ -1,0 +1,12 @@
+.container-fluid {
+    text-align: center;
+};
+
+h1 {
+    text-align: center;
+    color: red!important;
+};
+
+header {
+    background-color: navy;
+};
