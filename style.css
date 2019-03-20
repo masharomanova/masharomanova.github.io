@@ -8,14 +8,14 @@ a {
     padding: 30px;
 }
 
-
-.container-fluid {
-    text-align: center;
+h1 {
+    text-align: left;
+    color: magenta;
+    font-size: 150px;
 }
 
-h1 {
+h2 {
     text-align: center;
-    color: red;
 }
 
 header {
@@ -49,4 +49,12 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#divider {
+    background-color: peachpuff;
+}
+
+#projects {
+    background-color: lightslategray;
 }
