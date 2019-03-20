@@ -15,10 +15,47 @@
   <body>
       <header>
         <nav>
-            <img src="img/home-icon.png" alt="home-icon">
-            <a href="/index.html">About</a>
-            <img src="img/deal-icon.png" alt="deal-icon">
-            <a href="">Contact</a>
+            <!-- <img src="img/home-icon.png" alt="home-icon"> -->
+            <a href="/index.html" data-toggle="modal" data-target=".bd-example-modal-xl">About</a>
+
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body-about">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-6"></div>
+                                  <div class="col-6">
+                                        I'm Masha, a User Interface & Web Designer. <br>
+                                        Originally from Russia, I've spent my life in Austin. <br>
+                                        My passions in life revolve around the visually compelling. <br>
+                                        Whether it's the look of a site or the view from a mountain top, <br>
+                                        I draw inspiration from just about everything around me.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!--<img src="img/deal-icon.png" alt="deal-icon"> -->
+            <a href="" data-toggle="modal" data-target=".bd-example-modal-xl">Contact</a>
+
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body-contact">
+                          <div class="container">
+                              Contact Me
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
         </nav>
         <div class="container-fluid">
             <div class="row" id="jumbotron">
@@ -52,17 +89,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
-                    Project 1
+                <div class="col-sm-4">
+                    <img src="img/GwenOverview.jpg">
                 </div>
-                <div class="col-sm-6">
-                    Project 2
+                <div class="col-sm-4">
+                    <img src="img/KingfisherSliced.jpg">
                 </div>
-                <div class="col-sm-6">
-                    Project 3
+                <div class="col-sm-4">
+                        <img src="img/PowderBomb.jpg">
                 </div>
-                <div class="col-sm-6">
-                    Project 4
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="img/ShapeMaskFood.jpg">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/ProfileCard.jpg">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/ShapeMaskFood.jpg">
                 </div>
             </div>
         </div>
