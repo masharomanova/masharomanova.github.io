@@ -1,4 +1,4 @@
-(function( $ ) {
+/* (function( $ ) {
     // Custom js code goes here ... 
     
 
@@ -22,4 +22,4 @@ $(function() {
     });
 
 
-});
+}); */
